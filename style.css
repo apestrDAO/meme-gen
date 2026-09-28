@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #e0e0e0;
+}
+
+#main {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.upload-label {
+    font-size: 20px;
+}
+
+.caption {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+}
+
+#canvas {
+    width: 600px;
+}
+
+#placeholder_image {
+    display: none;
+}
+
+.github-ribbon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table td {
+    padding-right: 10px;
+}
+
+textarea {
+    text-align: center;
+    font-size: 22px;
+    height: 3em;
+}
+
+button {
+    margin-top: 10px;
+}   
